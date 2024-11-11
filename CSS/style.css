@@ -1,0 +1,432 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f04e23;
+}
+
+header {
+    background-color: #fff;
+    padding: 10px 0;
+    width: 1170px;
+    height: 64px;
+    margin: auto;
+    margin-top: 60px;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    margin-bottom: 50px;
+    
+}
+.top-bar {
+    text-align: center;
+    font-size: 14px;
+    background-color: #f04e23;
+    color: white;
+}
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    justify-content: space-between;
+}
+
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(77, 77, 77);
+    font-size: 13px;
+    font-family: 'Bookman', 'URW Bookman L', serif;
+}
+nav ul li a:hover {
+    
+    color: rgb(77, 77, 77) (205, 20, 20);
+    font-weight: 600;
+}
+nav ul li a:hover::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 3px; 
+    background-color: black; 
+    transition: width 0.3s ease; 
+}
+nav ul li a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 3px;
+    background-color: black;
+    transition: width 0.3s ease;
+}
+.nav-bar {
+    display: flex;
+    gap: 20px;
+    font-family: Arial, sans-serif;
+  }
+  .nav-bar a {
+    position: relative;
+    text-decoration: none;
+    color: #999999;
+    font-weight: bold;
+    padding-bottom: 13px;
+    transition: color 0.3s ease;
+  }
+.h22{
+    padding-bottom: 25px;
+    padding-top: 80px;
+    font-size: 25px;
+}
+.baton{
+    padding-top: 10px;
+}
+.gg{
+    
+   height: 44px;
+}
+.y{
+    font-size: 17px;
+    font-weight: 200;
+}
+  .nav-bar a:hover,
+  .nav-bar a.active {
+    color: #000000; 
+  }
+  .nav-bar a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 3px;
+    background-color: #000000;
+    transition: width 0.3s ease;
+  }
+
+  .nav-bar a:hover::after,
+  .nav-bar a.active::after {
+    width: 100%;
+  }
+.logo {
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Bookman', 'URW Bookman L', serif;
+    color: #333;
+    border: 1px, solid #a7a3a3;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    border-top: none;
+    border-left: none;
+    border-bottom: none;
+    width: 110px;
+}
+.search input {
+    padding: 5px;
+    padding-right: 20px;
+    font-size: 16px;
+    height: 40px;
+    display: flex;
+    border: none;
+    border-left: 1px solid #a7a3a3;
+}
+.YOU{
+   padding-left: 100px;
+   display: flex;
+   margin: auto;
+}
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background: linear-gradient(to right, #ffffff, #9B8E6B);
+    width: 1170px;
+    height: 500px;
+    margin: 20px auto;
+    margin-bottom: 50px;
+}
+
+.hero-content {
+    max-width: 50%;
+    padding-top: 10px;
+}
+.hero-content b {
+    font-size: 50px;
+    color:#f80d0d;
+    
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.hero button {
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.hero-banner {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
+    color: white;
+    text-transform: uppercase;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center; 
+    height: 400px;
+}
+
+.products {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px auto;
+    width: 1170px;
+}
+
+.product-card {
+    width: 360px;
+    height: 400px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+.nazva{
+    font-size: 23px;
+    font-family:'Times New Roman', Times, serif;
+}
+.nazwa{
+    display: flex;
+    justify-content: flex-start;
+    font-size: 14px;
+    padding-left: 27px;
+    font-family:'Times New Roman', Times, serif;
+}
+.bottomphoto{
+    width: 360px;
+    display: flex;
+    justify-content: space-around;
+}
+.TSINA{
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+   padding-top: 20px;
+   font-size: 27px;
+}
+.TSINAa{
+    padding-top: 30px;
+}
+.product-card h2 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.product-card p {
+   
+    margin: 10px 0;
+}
+
+.product-card button {
+    background-color: #00bfff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+.sales {
+    margin-left: 50px;
+   
+    width: 760px;
+    background-color: #f9f9f9;
+    
+}
+.ssales{
+    width: 700px;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-left: 60px;
+}
+.local{
+    border: 1px, solid #a7a3a3;
+    border-top: none;
+    border-left: none;
+    border-bottom: none;
+}
+.vv{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 28px;
+}
+.nn{
+    padding-top: 6px;
+    font-size: 11px;
+}
+.shopping-bag {
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    width: 1170px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.bag-item {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    
+}
+.bag-itemm {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    
+}
+.tekst{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-left: 10px;
+}
+.och{
+    display: flex;
+    width: 440px;
+    align-items: center;
+    padding-left: 25px;
+}
+.dch{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 150px;
+    padding-right: 25px;
+}
+.chislo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 1px, solid #a7a3a3;
+    height: 40px;
+}
+.bag-item img {
+    width: 100px;
+    height: 68px;
+    background-color: #ddd;
+}
+
+.bag-item p {
+    font-size: 16px;
+}
+
+.total {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 735px;
+    padding-left: 25px;
+    font-size: 27px;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+}
+.ts{
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    font-size: 20px;
+}
+.tss{
+    padding-top: 10px;
+    padding-left: 25px;
+}
+.total button {
+    background-color: #ffa500;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+.shopping-div{
+    width: 760px;
+    height: 400px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+.location {
+    margin-left: 50px;
+   
+    width: 360px;
+    background-color: #f9f9f9;
+}
+.zagolovok{
+    font-size: 23px;
+    font-family:'Times New Roman', Times, serif;
+    display: flex;
+    text-align: left;
+    padding-left: 25px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+footer {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    height: 54px;
+    width: 1170px;
+    margin: auto;
+    background-color: #fff;
+    margin-bottom: 50px;
+}
+
+.ya {
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Bookman', 'URW Bookman L', serif;
+    color: #333;
+    border: 1px, solid #a7a3a3;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    border-top: none;
+    border-left: none;
+    border-bottom: none;
+    width: 270px;
+    padding-left: 30px;
+    padding-right: 50px;
+}
+.socials{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 120px;
+    margin-left: 740px;
+}
